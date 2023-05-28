@@ -1085,7 +1085,6 @@ int main(void)
   MX_USB_HOST_Init();
  8000930:	f006 fd48 	bl	80073c4 <MX_USB_HOST_Init>
   /* USER CODE BEGIN 2 */
-
   SET_BIT(GPIOD_MOD,1<<28);
  8000934:	4b0d      	ldr	r3, [pc, #52]	; (800096c <main+0x58>)
  8000936:	681b      	ldr	r3, [r3, #0]
